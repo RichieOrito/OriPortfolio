@@ -6,6 +6,14 @@
   list-style: none;
 }
 
+:root {
+  --color-primary: #252A34;
+  --color-secondary: #08D9D6;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-black: #EAEAEA;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
