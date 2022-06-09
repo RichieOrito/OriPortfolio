@@ -100,6 +100,12 @@ section {
           transform: translateY(-50%);
 }
 
+.controls .active-btn {
+  background-color: var(--color-secondary) !important;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 .controls .control {
   padding: 1rem;
   cursor: pointer;
