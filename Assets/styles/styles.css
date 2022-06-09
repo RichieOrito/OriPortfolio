@@ -133,7 +133,7 @@ section {
 
 .controls .control i {
   font-size: 1.4rem;
-  color: var(--color-white);
+  color: var(--color-grey);
   pointer-events: none;
 }
 /*# sourceMappingURL=styles.css.map */
