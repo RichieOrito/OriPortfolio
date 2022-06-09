@@ -120,4 +120,10 @@ section {
   -webkit-box-shadow: var(--box-shadow-1);
           box-shadow: var(--box-shadow-1);
 }
+
+.controls .control i {
+  font-size: 1.4rem;
+  color: var(--color-white);
+  pointer-events: none;
+}
 /*# sourceMappingURL=styles.css.map */
