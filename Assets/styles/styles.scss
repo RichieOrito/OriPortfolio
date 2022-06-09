@@ -72,4 +72,17 @@ section{
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
+    .control{
+        padding: 1rem;
+        cursor: pointer;
+        background-color: var(--color-red);
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .7rem 0;
+        box-shadow: var(--box-shadow-1);
+    }
 }
