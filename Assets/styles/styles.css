@@ -22,4 +22,11 @@ body {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
 /*# sourceMappingURL=styles.css.map */

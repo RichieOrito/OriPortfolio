@@ -4,7 +4,6 @@
     box-sizing: border-box;
     list-style: none;
 }
-
 :root{
     --color-primary: #252A34;
     --color-secondary: #08D9D6;
@@ -18,4 +17,10 @@ body{
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
 }
