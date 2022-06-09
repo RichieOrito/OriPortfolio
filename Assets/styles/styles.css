@@ -106,6 +106,10 @@ section {
   transition: all .4s ease-in-out;
 }
 
+.controls .active-btn i {
+  color: var(--color-white) !important;
+}
+
 .controls .control {
   padding: 1rem;
   cursor: pointer;

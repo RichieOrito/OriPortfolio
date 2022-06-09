@@ -75,6 +75,9 @@ section{
     .active-btn{
         background-color: var(--color-secondary) !important;
         transition: all .4s ease-in-out;
+        i{
+            color: var(--color-white) !important;
+        }
     }
     .control{
         padding: 1rem;
