@@ -7,9 +7,12 @@
 :root{
     --color-primary: #252A34;
     --color-secondary: #08D9D6;
+    --color-red: #FF2E63;
     --color-white: #FFFFFF;
     --color-black: #000000;
-    --color-black: #EAEAEA;
+    --color-grey: #EAEAEA;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.5);
+
 }
 body{
     background-color: var(--color-primary);
@@ -57,4 +60,16 @@ section{
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+}
+// controls
+.controls{
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
 }
