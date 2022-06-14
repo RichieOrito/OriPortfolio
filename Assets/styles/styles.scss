@@ -12,6 +12,7 @@
     --color-black: #000000;
     --color-grey: #EAEAEA;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.5);
+    --br-sm: 0.8rem
 
 }
 body{
@@ -78,7 +79,7 @@ section{
        
    }
 }
-// controls
+/* controls*/
 .controls{
     position: fixed;
     z-index: 10;
@@ -115,3 +116,62 @@ section{
         }
     }
 }
+/*Header-content*/
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    .left-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .header-shape{
+            transition: all .4s ease-in-out;
+            width: 60%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .image{
+            height: 90%;
+            width: 90%;
+            margin-left: 14rem;
+            margin-top: 2.5rem;
+            transition: all .4s ease-in-out;
+            img{
+                border-radius: var(--br-sm);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .4s ease-in-out;
+                // filter: grayscale(100%);
+                // &:hover{
+                //     filter: grayscale(1);
+                //     cursor: pointer;
+                // }
+            }
+    }   }
+
+    .right-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 18rem;
+        .name{
+            font-size: 2.8rem;
+            span{
+                color: var(--color-secondary);
+            }
+        }
+        p{
+            margin: 1.5rem 0;
+            line-height: 2rem;
+        }
+    }
+}
+/*Independent components*/
+
+

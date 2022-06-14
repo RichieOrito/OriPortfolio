@@ -14,6 +14,9 @@
   --color-black: #000000;
   --color-grey: #EAEAEA;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.5);
+  --br-sm: 0.8rem
+
+;
 }
 
 body {
@@ -112,6 +115,7 @@ section {
   }
 }
 
+/* controls*/
 .controls {
   position: fixed;
   z-index: 10;
@@ -170,4 +174,83 @@ section {
   color: var(--color-grey);
   pointer-events: none;
 }
+
+/*Header-content*/
+.header-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.header-content .left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header-content .left-header .header-shape {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 60%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header-content .left-header .image {
+  height: 90%;
+  width: 90%;
+  margin-left: 14rem;
+  margin-top: 2.5rem;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.header-content .left-header .image img {
+  border-radius: var(--br-sm);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.header-content .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 18rem;
+}
+
+.header-content .right-header .name {
+  font-size: 2.8rem;
+}
+
+.header-content .right-header .name span {
+  color: var(--color-secondary);
+}
+
+.header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+}
+
+/*Independent components*/
 /*# sourceMappingURL=styles.css.map */
