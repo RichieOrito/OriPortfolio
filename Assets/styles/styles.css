@@ -290,8 +290,8 @@ section {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
   border: 1px solid var(--color-secondary);
-  -webkit-box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
-          box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.32);
+          box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.32);
 }
 
 .about-containter .right-about .about-item .about-text {
