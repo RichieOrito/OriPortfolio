@@ -53,7 +53,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 3rem 15rem;
 }
 
 .section {
@@ -328,6 +328,17 @@ section {
   width: 2rem;
   height: 2px;
   background-color: var(--color-grey-2);
+}
+
+.about-containter .left-about p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: var(--color-white);
+}
+
+.about-containter .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 /*Independent components*/

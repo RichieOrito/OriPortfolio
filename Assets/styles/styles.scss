@@ -46,7 +46,7 @@ section{
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    padding: 3rem 15rem;
 }
 .section{
     transform: translateY(-100%)scale(0);
@@ -228,6 +228,18 @@ section{
                     background-color: var(--color-grey-2);
                 }
             }
+        }
+    }
+    .left-about{
+        
+        p{
+            line-height: 2rem;
+            padding: 1rem;
+            color: var(--color-white);
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
         }
     }
 
