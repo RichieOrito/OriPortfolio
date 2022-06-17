@@ -180,7 +180,7 @@ section{
         }
     }
 }
-// About
+/*About*/
 .about-containter{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -331,7 +331,7 @@ section{
         transform: translateX(-50%);
     }
 }
-
+/*Timeline*
 /*Independent components*/
 .btn-container{
     display: flex;

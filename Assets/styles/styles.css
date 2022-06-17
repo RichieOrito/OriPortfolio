@@ -259,6 +259,7 @@ section {
   line-height: 2rem;
 }
 
+/*About*/
 .about-containter {
   display: -ms-grid;
   display: grid;
@@ -463,6 +464,7 @@ section {
           transform: translateX(-50%);
 }
 
+/*Timeline*
 /*Independent components*/
 .btn-container {
   display: -webkit-box;
