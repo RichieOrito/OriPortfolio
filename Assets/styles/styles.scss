@@ -331,7 +331,40 @@ section{
         transform: translateX(-50%);
     }
 }
-/*Timeline*
+/*Timeline*/
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 3rem;
+    .timeline-item{
+        position: relative;
+        padding-left: 3rem;
+        border-left: 1px solid var(--color-grey-4);
+        .timeline-icon{
+            position: absolute;
+            left: -25px;
+            top: 0;
+            background-color: var(--color-secondary);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                font-size: 1.3rem;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
 /*Independent components*/
 .btn-container{
     display: flex;
