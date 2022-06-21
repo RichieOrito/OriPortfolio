@@ -356,6 +356,15 @@ section{
                 font-size: 1.3rem;
             }
         }
+        .timeline-duration{
+            padding: .2rem .6rem;
+            background-color: var(--color-grey-4);
+            border-radius: 15px;
+            display: inline-block;
+            font-size: .8rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
 
     }
 
