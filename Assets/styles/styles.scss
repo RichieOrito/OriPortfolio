@@ -521,6 +521,156 @@ section.contact::before{
     background-color: var(--color-secondary);
     z-index: -1;
 }
+.container-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        position: relative;
+        min-width: 1100px;
+        min-height: 550px;
+        display: flex;
+        z-index: 1000;
+        .contactInfo{
+            position: absolute;
+            top: 40px;
+            width: 350px;
+            height: calc(100% - 80px);
+            background: var(--color-primary);
+            z-index: 1;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 20px 25px rgba(0,0,0,.15);
+            h2{
+                color: var(--color-white);
+                font-size: 24px;
+                font-weight: 500;
+            }
+            ul.info{
+                position: relative;
+                margin: 20px 0;
+                li{
+                    position: relative;
+                    display: flex;
+                    margin: 20px 0;
+                    cursor: pointer;
+                    align-items: flex-start;
+                    span{
+                        i{
+                            font-size: 30px;
+                            color: var(--color-grey-1);
+                        }
+                    }
+                    span:nth-child(1){
+                        width: 30px;
+                        min-width: 25px
+                    }
+                    span:nth-child(1) i{
+                        max-width: 100%;
+                    }
+                    span:nth-child(2){
+                        color: var(--color-white);
+                        margin-left: 10px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .socials{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                justify-content: space-between ;
+                li{
+                    margin-right: 15px;
+                    i{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        .contactForm{
+            position: absolute;
+            padding: 70px 50px;
+            padding-left: 250px;
+            margin-left: 150px;
+            width: calc(100% - 150px);
+            height: 100%;
+            background-color: var(--color-white);
+            h2{
+                color: var(--color-primary);
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .formBox{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding-top: 35px;
+                .inputBox{
+                    position: relative;
+                    margin-bottom: 35px;
+                    input,textarea{
+                        width: 100%;
+                        resize: none;
+                        padding: 8px 0;
+                        font-size: 18px;
+                        font-weight: 200;
+                        color: var(--color-primary);
+                        border: none;
+                        outline: none;
+                        border-bottom: 1px solid var(--color-primary);
+                        &:focus ~ span, :valid ~ span{
+                            transform: translateY(-20px);
+                            font-size: 12px;
+                            font-weight: 500;
+                            letter-spacing: 1px;
+                            color: var(--color-primary); 
+                        }
+                    }
+                    span{
+                        position: absolute;
+                        left: 0;
+                        color: var(--color-grey-3);
+                        padding: 5px 0;
+                        pointer-events: none;
+                        font-size: 18px;
+                        font-weight: 400;
+                        transition: 0.4s;
+                    }
+                    textarea{
+                        height: 120px;
+                    }
+                    input[type="submit"]{
+                        position: relative;
+                        cursor: pointer;
+                        background: var(--color-primary);
+                        color: var(--color-white);
+                        border: none;
+                        max-width: 150px;
+                        padding: 16px;
+                        border-radius: 8px;
+                        &:hover{
+                            background-color: var(--color-secondary);
+                            transition: all .6s ease-out; 
+                        }
+                       
+                    }
+                }
+                .w50{
+                    width: 47%;
+                }
+                .w100{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}
 
 /*Independent components*/
 .btn-container{
