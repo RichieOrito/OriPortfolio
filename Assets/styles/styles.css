@@ -254,7 +254,7 @@ section {
 .header-content .left-header .header-shape {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  width: 60%;
+  width: 65%;
   height: 100%;
   background-color: var(--color-secondary);
   position: absolute;
@@ -265,9 +265,8 @@ section {
 
 .header-content .left-header .image {
   height: 90%;
-  width: 90%;
-  margin-left: 14rem;
-  margin-top: 2.5rem;
+  width: 68%;
+  margin-left: 4rem;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -280,6 +279,14 @@ section {
      object-fit: cover;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.header-content .left-header .image img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  cursor: pointer;
 }
 
 .header-content .right-header {
