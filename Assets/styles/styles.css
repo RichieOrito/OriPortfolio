@@ -1120,4 +1120,104 @@ section.contact::before {
   font-weight: 900;
   font-size: 6rem;
 }
+
+/*Header*/
+@media screen and (max-width: 580px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 2rem !important;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .header-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 82.2rem;
+  }
+  .right-header {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-content .left-header .header-shape {
+    width: 87%;
+  }
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
+  }
+  /*About*/
+  .about-containter {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about-containter .right-about {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-top: 2.5rem;
+  }
+  .about-containter .left-about {
+    padding-right: 0;
+  }
+  .about-containter .left-about p {
+    padding-left: 0;
+  }
+  .timeline {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .about-stats .progress-bars {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .portfolios {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .blogs {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .sec2, .sec3, .sec4 {
+    padding: 2rem 2.5rem;
+  }
+  .main-title h2 {
+    font-size: 2.5rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3.3rem;
+  }
+  .controls {
+    top: auto;
+    bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+  }
+  .controls .control {
+    margin: 1rem .3rem;
+  }
+}
+
+/*Contact*/
 /*# sourceMappingURL=styles.css.map */
