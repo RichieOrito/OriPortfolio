@@ -213,6 +213,7 @@ section{
         p{
             margin: 1.5rem 0;
             line-height: 2rem;
+            font-size: 20px;
         }
     }
 }
@@ -420,8 +421,10 @@ section{
 }
 /*Portfolios*/
 .portfolio-text{
-    padding: 2rem 0;
+    padding: 2rem;
     text-align: center;
+    font-size: 25px;
+    color: var(--color-white);
 }
 .portfolios{
     display: grid;

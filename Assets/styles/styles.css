@@ -314,6 +314,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+  font-size: 20px;
 }
 
 /*About*/
@@ -589,8 +590,10 @@ section {
 
 /*Portfolios*/
 .portfolio-text {
-  padding: 2rem 0;
+  padding: 2rem;
   text-align: center;
+  font-size: 25px;
+  color: var(--color-white);
 }
 
 .portfolios {
@@ -1122,36 +1125,7 @@ section.contact::before {
 }
 
 /*Header*/
-@media screen and (max-width: 580px) {
-  header {
-    padding: 0;
-  }
-  header .right-header {
-    padding: 2rem !important;
-  }
-  .theme-btn {
-    width: 50px;
-    height: 50px;
-  }
-  .header-content {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    padding-bottom: 82.2rem;
-  }
-  .right-header {
-    -ms-grid-row: 1;
-    grid-row: 1;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .header-content .left-header .header-shape {
-    width: 87%;
-  }
-  .header-content .left-header .image {
-    margin: 0 auto;
-    width: 90%;
-  }
-  /*About*/
+@media screen and (max-width: 600px) {
   .about-containter {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1171,10 +1145,6 @@ section.contact::before {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     padding-bottom: 6rem;
-  }
-  .about-stats .progress-bars {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
   }
   .portfolios {
     -ms-grid-columns: 1fr;
@@ -1198,6 +1168,76 @@ section.contact::before {
   .main-title h2 .bg-text {
     font-size: 3.3rem;
   }
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    padding: 0 !important;
+  }
+  .section {
+    padding: 7rem 11rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .about-containter {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about-containter .right-about {
+    padding-top: 2.5rem;
+  }
+  .portfolios {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .blogs {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .main-title h2 {
+    font-size: 4rem;
+  }
+  .main-title h2 span {
+    font-size: 4rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .section {
+    padding: 7rem 6rem;
+  }
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 2rem !important;
+  }
+  .theme-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .header-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 98rem;
+  }
+  .right-header {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-content .left-header .header-shape {
+    width: 87%;
+  }
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
+  }
   .controls {
     top: auto;
     bottom: 0;
@@ -1213,11 +1253,67 @@ section.contact::before {
             transform: translateX(-50%);
     width: 100%;
     background-color: var(--color-grey-5);
+    opacity: 0.9;
   }
   .controls .control {
-    margin: 1rem .3rem;
+    margin: 1.2rem 1.2rem;
+  }
+  .blogs {
+    margin-top: 5rem;
   }
 }
 
-/*Contact*/
+@media screen and (max-width: 700px) {
+  .section {
+    padding: 7rem 3rem;
+  }
+  .about-stats .progress-bars {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .main-title h2 {
+    font-size: 3rem;
+  }
+  .main-title h2 span {
+    font-size: 4rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 5.3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blogs {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .main-title h2 {
+    font-size: 4rem;
+  }
+  .main-title h2 span {
+    font-size: 4rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 5.3rem;
+  }
+}
+
+@media screen and (max-width: 1197px) {
+  .blogs {
+    margin-top: 5rem;
+  }
+  .portfolio-tex {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .portfolio-text {
+    margin-top: 4rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
