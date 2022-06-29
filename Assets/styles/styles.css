@@ -314,7 +314,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 /*About*/
@@ -1212,9 +1212,6 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
 }
 
 @media screen and (max-width: 970px) {
-  .section {
-    padding: 7rem 6rem;
-  }
   header {
     padding: 0;
   }
@@ -1228,7 +1225,7 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
   .header-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    padding-bottom: 98rem;
+    padding-bottom: 101.8rem !important;
   }
   .right-header {
     -ms-grid-row: 1;
@@ -1261,7 +1258,7 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
     opacity: 0.9;
   }
   .controls .control {
-    margin: 1.2rem 1.2rem;
+    margin: 1.2rem 1rem;
   }
   .blogs {
     margin-top: 5rem;
@@ -1269,9 +1266,6 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
 }
 
 @media screen and (max-width: 700px) {
-  .section {
-    padding: 7rem 3rem;
-  }
   .about-stats .progress-bars {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1408,7 +1402,13 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
 
 @media (max-width: 970px) {
   .container {
-    margin-bottom: 6rem !important;
+    margin-bottom: 4.5rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .control {
+    margin: 1.2rem 0.6rem !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
