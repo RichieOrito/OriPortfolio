@@ -237,6 +237,15 @@
         // justify-content: center !important;
         align-items: center !important;
     }
+    .contact .main-title{
+        h2{
+            span:nth-child(1){
+                color: var(--color-red);
+            }
+        }
+    
+    }
+
 
 }
 @media (max-width: 700px){
@@ -265,5 +274,18 @@
 @media (max-width: 420px){
     .control{
         margin: 1.2rem 0.6rem !important;
+    }
+}
+
+@media (max-width: 470px){
+    .contact .main-title{
+       
+            h2{
+                font-size: 3rem;
+            }
+            .bg-text{
+                font-size: 4rem;
+            }
+        
     }
 }
