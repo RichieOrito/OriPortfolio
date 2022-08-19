@@ -48,6 +48,10 @@
     .section{
         padding: 7rem 11rem;
     }
+    .container-con{
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
 }
 
 @media screen and(max-width: 1070px){
@@ -130,6 +134,15 @@
     .blogs{
         margin-top: 5rem;
     }
+    .blogger{
+        padding: 6rem 6rem;
+    }
+    .container-con{
+        margin-right: 0;
+    }
+    .portfolio{
+        padding: 6rem 6rem;
+    }
 }
 
 @media screen and(max-width: 700px){
@@ -156,6 +169,9 @@
     .blogs{
         grid-template-columns: 1fr;
         margin-top: 5rem;
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -269,6 +285,9 @@
     .container{
         margin-bottom: 4.5rem !important;
     }
+    .container-con{
+        padding: 0 0.5rem;
+    }
 }
 
 @media (max-width: 420px){
@@ -288,4 +307,28 @@
             }
         
     }
+}
+
+@media screen and(max-width: 900px){
+    .about{
+      padding: 7rem 5.5rem;
+    }
+    .portfolio{
+        padding: 7rem 5.5rem;
+      }
+      .blogger{
+        padding: 7rem 5rem;
+      }
+}
+
+@media screen and(max-width: 500px){
+    .about{
+      padding: 7rem 1rem;
+    }
+    .portfolio{
+        padding: 7rem 0rem;
+      }
+      .blogger{
+        padding: 7rem 0rem;
+      }
 }
