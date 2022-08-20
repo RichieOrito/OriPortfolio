@@ -1100,21 +1100,33 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
   }
 }
 @media screen and (max-width: 500px) {
+  .main-title h2 {
+    font-size: 3.5rem;
+  }
+  .main-title h2 span {
+    font-size: 3.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 4.7rem;
+  }
   .about {
-    padding: 7rem 1rem;
+    padding: 7rem 1.5rem;
   }
   .portfolio {
-    padding: 7rem 0rem;
+    padding: 7rem 1rem;
   }
   .blogger {
-    padding: 7rem 0rem;
+    padding: 7rem 1rem;
   }
-  .timeline-icon {
+  .timeline-item {
+    padding-left: 2.5;
+  }
+  .timeline-item .timeline-icon {
     left: -16px;
     width: 35px;
     height: 35px;
   }
-  .timeline-icon i {
+  .timeline-item .timeline-icon i {
     font-size: 1.2rem;
   }
 }/*# sourceMappingURL=styles.css.map */
