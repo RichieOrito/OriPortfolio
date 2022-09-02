@@ -1129,4 +1129,7 @@ section.sec5 .container-con .container .contactForm .formBox .w100 {
   .timeline-item .timeline-icon i {
     font-size: 1.2rem;
   }
+  .container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
