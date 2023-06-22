@@ -22,7 +22,7 @@
   - [Licence](#licence)
 
 ## Description
-<p>Oriportfolio website is designed to provide visitors with a comprehensive overview of my capabilities, experiences, and expertise in the field of Software Development. It offers a visually appealing and user-friendly interface that allows easy navigation through various sections and showcases my work in an organized manner.
+<p>OriPortfolio website is designed to provide visitors with a comprehensive overview of my capabilities, experiences, and expertise in the field of Software Development. It offers a visually appealing and user-friendly interface that allows easy navigation through various sections and showcases my work in an organized manner.
 </p>
 
 ## Key Features
@@ -52,7 +52,7 @@ To run this portfolio locally, follow these steps:
 3. Install the Live Server extension by Ritwick Dey. You can do this by following these steps:
 
    * Open VSCode.
-   * Go to the Extensions view by clicking on the square icon on the left sidebar or by pressing Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (Mac).
+   * Go to the Extensions view by clicking on the square icon on the left sidebar or by pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X`(Mac).
    * Search for "Live Server" in the search bar.
    * Click on the "Live Server" extension by Ritwick Dey and click the "Install" button.
    * Once the Live Server extension is installed, open your portfolio project in VSCode.
