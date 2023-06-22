@@ -16,6 +16,7 @@
 - [Technology Used](#technology-used)
   - [Reference](#reference)
 - [Deployment](#deployment)
+- [Future Technologies](#future-technologies)
 - [Conclusion](#conclusion)
   - [Authors Info](#authors-info)
   - [Licence](#licence)
@@ -70,9 +71,6 @@ To run this portfolio locally, follow these steps:
 
 * An Active Github Account.
 
-
-[Go Back to the top](#oriportfolio)
-
 # Technology Used
 The portfolio website is developed using a combination of modern web technologies, including:
 
@@ -83,18 +81,34 @@ The portfolio website is developed using a combination of modern web technologie
 * `Git` for version control and collaboration.
 
 ## Reference
-* Youtube
+Here are some valuable resources that I have utilized during the development of my Portfolio Website:
 
-* W3schools
+* Youtube - A popular video-sharing platform that offers a wide range of tutorials and educational content on web development and programming.
 
-* FreecodeCamp
+* W3schools - An online learning platform that provides extensive documentation, tutorials, and examples for various web technologies, including HTML, CSS, JavaScript, and more.
 
-* MDN
+* FreeCodeCamp - An interactive learning platform that offers a comprehensive curriculum for web development. It provides hands-on coding exercises, projects, and certifications to enhance programming skills.
+
+* MDN (Mozilla Developer Network) - A trusted resource for web developers, offering detailed documentation, guides, and references on web technologies, including HTML, CSS, JavaScript, and more.
+
+[Go Back to the top](#oriportfolio)
 
 # Deployment
 <p>The portfolio website is deployed and hosted on a reliable hosting platform(Gh-pages)ensuring its accessibility to visitors at all times.</p>
 
 LiveLink- [Gh-pages](https://richieorito.github.io/OriPortfolio/)
+
+# Future Technologies
+
+As part of my ongoing efforts to enhance the functionality and user experience of the OriPortfolio Website, I have exciting plans to incorporate cutting-edge technologies. Here are some of the future technologies that I intend to explore and integrate:
+
+1. <b>React</b>: I plan to transition the current portfolio website into a React web application. React is a popular JavaScript library for building user interfaces, and it offers various advantages such as component-based architecture, efficient rendering, and a vibrant ecosystem of libraries and tools.
+2. <b>Serverless</b> Architecture: I am interested in exploring serverless computing frameworks such as AWS Lambda or Firebase Functions to build scalable and cost-effective backend services. Serverless architecture eliminates the need to manage infrastructure, allowing for increased flexibility and reduced operational overhead.
+3. <b>Progressive Web Apps (PWAs)</b>: I intend to transform the portfolio into a Progressive Web App, enabling users to install and access it as a native-like application on their devices. PWAs provide an immersive user experience, offline capabilities, and improved performance.
+
+4. <b>CSS-in-JS</b>: I plan to adopt CSS-in-JS solutions like styled-components or Emotion to enhance the modularity and reusability of the styling code. CSS-in-JS enables the encapsulation of styles within components, making it easier to manage styles and eliminate style conflicts.
+
+5. <b>State Management Libraries:</b> As the portfolio grows in complexity, I will explore state management solutions like Redux to manage the application's global state efficiently. This library provide centralized state management, enabling better control over data flow and state updates.
 
 
 # Conclusion
