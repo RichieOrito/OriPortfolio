@@ -1,0 +1,180 @@
+section.sec5 {
+  padding: 3rem 2rem;
+  min-height: 100vh;
+}
+section.sec5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  z-index: -1;
+}
+section.sec5 .container-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.sec5 .container-con .container {
+  position: relative;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+  z-index: 1000;
+}
+section.sec5 .container-con .container .contactInfo {
+  position: absolute;
+  top: 40px;
+  width: 350px;
+  height: calc(100% - 80px);
+  background: var(--color-primary);
+  z-index: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+section.sec5 .container-con .container .contactInfo h2 {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 500;
+}
+section.sec5 .container-con .container .contactInfo ul.info {
+  position: relative;
+  margin: 20px 0;
+}
+section.sec5 .container-con .container .contactInfo ul.info li {
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-items: flex-start;
+}
+section.sec5 .container-con .container .contactInfo ul.info li span i {
+  font-size: 30px;
+  color: var(--color-grey-1);
+}
+section.sec5 .container-con .container .contactInfo ul.info li span:nth-child(1) {
+  width: 30px;
+  min-width: 25px;
+}
+section.sec5 .container-con .container .contactInfo ul.info li span:nth-child(1) i {
+  max-width: 100%;
+}
+section.sec5 .container-con .container .contactInfo ul.info li span:nth-child(2) {
+  color: var(--color-white);
+  margin-left: 10px;
+  font-weight: 400;
+}
+section.sec5 .container-con .container .contactInfo .socials {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+section.sec5 .container-con .container .contactInfo .socials li {
+  margin-right: 15px;
+}
+section.sec5 .container-con .container .contactInfo .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: var(--color-grey-3);
+  transition: all 0.4s ease-in-out;
+}
+section.sec5 .container-con .container .contactInfo .socials a:hover {
+  background-color: var(--color-secondary);
+}
+section.sec5 .container-con .container .contactInfo .socials a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.sec5 .container-con .container .contactForm {
+  position: absolute;
+  padding: 70px 50px;
+  padding-left: 250px;
+  margin-left: 150px;
+  width: calc(100% - 150px);
+  height: 100%;
+  background-color: var(--color-white);
+}
+section.sec5 .container-con .container .contactForm h2 {
+  color: var(--color-primary);
+  font-size: 24px;
+  font-weight: 500;
+}
+section.sec5 .container-con .container .contactForm .formBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 35px;
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox {
+  position: relative;
+  margin-bottom: 35px;
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox input,
+section.sec5 .container-con .container .contactForm .formBox .inputBox textarea {
+  width: 100%;
+  resize: none;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 200;
+  color: var(--color-primary);
+  border: none;
+  outline: none;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-primary);
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox input:focus ~ span,
+section.sec5 .container-con .container .contactForm .formBox .inputBox input :valid ~ span,
+section.sec5 .container-con .container .contactForm .formBox .inputBox textarea:focus ~ span,
+section.sec5 .container-con .container .contactForm .formBox .inputBox textarea :valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--color-secondary);
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox span {
+  position: absolute;
+  left: 0;
+  color: var(--color-grey-3);
+  padding: 5px 0;
+  pointer-events: none;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.4s;
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox textarea {
+  height: 120px;
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox input[type=submit] {
+  position: relative;
+  cursor: pointer;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  max-width: 150px;
+  padding: 16px;
+  border-radius: 8px;
+  transition: all 0.4s ease-in-out;
+}
+section.sec5 .container-con .container .contactForm .formBox .inputBox input[type=submit]:hover {
+  background-color: var(--color-secondary);
+}
+section.sec5 .container-con .container .contactForm .formBox .w50 {
+  width: 47%;
+}
+section.sec5 .container-con .container .contactForm .formBox .w100 {
+  width: 100%;
+}/*# sourceMappingURL=contact.css.map */

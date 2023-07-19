@@ -1,0 +1,78 @@
+// Define color variables
+$color-white: #FFFFFF;
+$color-secondary: #FF2E63;
+
+// Define border radius variable
+$br-sm: 8px;
+
+// Define transition variable
+$transition: all 0.4s ease-in-out;
+
+header {
+  height: 100vh;
+  color: var(--color-white);
+
+  .header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+
+    .left-header {
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .header-shape {
+        transition: $transition;
+        width: 65%;
+        height: 100%;
+        background-color: var(--color-secondary);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      .image {
+        height: 90%;
+        width: 68%;
+        margin-left: 4rem;
+        transition: $transition;
+
+        img {
+          border-radius: $br-sm;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: $transition;
+          filter: grayscale(100%);
+
+          &:hover {
+            filter: grayscale(0);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .right-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 18rem;
+
+      .name {
+        font-size: 2.8rem;
+        span {
+          color: var(--color-secondary);
+        }
+      }
+
+      p {
+        margin: 1.5rem 0;
+        line-height: 2rem;
+        font-size: 21px;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+header {
+  height: 100vh;
+  color: var(--color-white);
+}
+header .header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+header .header-content .left-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .header-content .left-header .header-shape {
+  transition: all 0.4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+header .header-content .left-header .image {
+  height: 90%;
+  width: 68%;
+  margin-left: 4rem;
+  transition: all 0.4s ease-in-out;
+}
+header .header-content .left-header .image img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+header .header-content .left-header .image img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+header .header-content .right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18rem;
+}
+header .header-content .right-header .name {
+  font-size: 2.8rem;
+}
+header .header-content .right-header .name span {
+  color: var(--color-secondary);
+}
+header .header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+  font-size: 21px;
+}/*# sourceMappingURL=home.css.map */
