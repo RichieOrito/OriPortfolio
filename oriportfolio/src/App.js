@@ -7,6 +7,8 @@ import Myblogs from '../src/pages/myblogs';
 import Contact from '../src/pages/contact';
 import Sidebar from '../src/components/sidebar'
 
+import { BrowserRouter } from 'react-router-dom';
+
 import "./App.css";
 
 const App = () => {
@@ -15,12 +17,14 @@ const App = () => {
 
   return (
       <div>
-        <Home />
-        <Sidebar sectionIds={sectionIds} />
-        <About />
-        <Projects />
-        <Myblogs />
-        <Contact />
+        <BrowserRouter>
+          <Home />
+          <Sidebar sectionIds={sectionIds} />
+          <About />
+          <Projects />
+          <Myblogs />
+          <Contact />
+        </BrowserRouter>
       </div>
   );
 };
