@@ -1,7 +1,12 @@
 import React, { useEffect, useCallback } from 'react';
+import { Link } from 'react-router-dom';
+import dark from "../Assets/images/theme/Dim-Night.png";
+import light from "../Assets/images/theme/sun-light.png"
+
 import '../styles/sidebar/sidebar.css'
 
-const Sidebar = ({ sectionIds }) => {
+const Sidebar = ({ sectionIds, isDarkMode, toggleDarkMode }) => {
+
   const handleControlClick = useCallback(
     (index) => {
       return () => {
@@ -89,24 +94,29 @@ const Sidebar = ({ sectionIds }) => {
   return (
     <div className="sidebar">
       <div className="controls">
-        <div className="control control-1 active-btn" data-id={sectionIds[0]}>
+        <Link to='/' className="control control-1 active-btn" data-id={sectionIds[0]}>
           <i className="fas fa-home"></i>
-        </div>
-        <div className="control control-2" data-id={sectionIds[1]}>
+        </Link>
+        <Link to='about' className="control control-2" data-id={sectionIds[1]}>
           <i className="fas fa-user"></i>
-        </div>
-        <div className="control control-3" data-id={sectionIds[2]}>
+        </Link>
+        <Link to='projects' className="control control-3" data-id={sectionIds[2]}>
           <i className="fas fa-briefcase"></i>
-        </div>
-        <div className="control control-4" data-id={sectionIds[3]}>
+        </Link>
+        <Link to='myblogs' className="control control-4" data-id={sectionIds[3]}>
           <i className="fas fa-blog"></i>
-        </div>
-        <div className="control control-5" data-id={sectionIds[4]}>
+        </Link>
+        <Link to='contact' className="control control-5" data-id={sectionIds[4]}>
           <i className="fas fa-address-card"></i>
-        </div>
+        </Link>
       </div>
-      <div className="theme-btn">
-        <i className="fas fa-adjust"></i>
+      <div className="theme-btn" onClick={toggleDarkMode}>
+        {/* Conditional Rendering for the theme toggle button image */}
+        {isDarkMode ?  (
+          <img src={ light } alt="sun" />
+        ) : (
+          <img src={ dark } alt="night" />
+        )}
       </div>
     </div>
   );
