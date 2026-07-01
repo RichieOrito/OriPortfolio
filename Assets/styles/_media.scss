@@ -1,5 +1,5 @@
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .about-containter{
         grid-template-columns: 1fr;
         .right-about{
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and(max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     header{
         padding: 0 !important;
     }
@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and(max-width: 1070px){
+@media screen and (max-width: 1070px){
     .about-containter{
         grid-template-columns: 1fr;
         .right-about{
@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and(max-width: 970px){
+@media screen and (max-width: 970px){
 
     header{
         padding: 0;
@@ -145,7 +145,7 @@
     }
 }
 
-@media screen and(max-width: 700px){
+@media screen and (max-width: 700px){
 
     .about-stats{
         .progress-bars{
@@ -165,7 +165,7 @@
     }
 }
 
-@media screen and(max-width: 800px){
+@media screen and (max-width: 800px){
     .blogs{
         grid-template-columns: 1fr;
         margin-top: 5rem;
@@ -175,7 +175,7 @@
     }
 }
 
-@media screen and(max-width: 1270px){
+@media screen and (max-width: 1270px){
 
     .main-title{
         h2{
@@ -190,7 +190,7 @@
     }
 }
 
-@media screen and(max-width: 1197px){
+@media screen and (max-width: 1197px){
     .blogs{
         margin-top: 5rem;
     }
@@ -198,7 +198,7 @@
         margin-top: 5rem;
     }
 }
-@media screen and(max-width: 1165px){
+@media screen and (max-width: 1165px){
     .portfolio-text{
         margin-top: 4rem;
     }
@@ -309,7 +309,7 @@
     }
 }
 
-@media screen and(max-width: 900px){
+@media screen and (max-width: 900px){
     .about{
       padding: 7rem 5.5rem;
     }
@@ -321,7 +321,7 @@
       }
 }
 
-@media screen and(max-width: 500px){
+@media screen and (max-width: 500px){
     .main-title{
         h2{
             font-size: 3.5rem;
